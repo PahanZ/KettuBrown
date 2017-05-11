@@ -1,0 +1,252 @@
+@font-face {
+font-family: 'TURNBB__.TTF';
+font-style: normal;
+font-weight: bolder;
+src: url('../fonts/TURNBB__.TTF');
+}
+body {
+	margin: 0;
+    padding: 0;
+	background-color: #e3e3e3;
+    width: 100%;
+    height: 100%;
+}
+header {
+	background-image: url(../img/who.jpg);
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+}
+.header-hat {
+	background-image: url(../img/hat-hat.jpg);
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-attachment: fixed;
+}
+.header-back{
+	background-image: url(../img/sack-back.jpg);
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+}
+.desc {
+	color: #fff;
+	line-height: 40px;
+	font-size: large;
+	padding-top: 215px;
+	text-align: center;
+}
+.about {
+	font-size: x-large;
+    font-family: fantasy;
+    font-weight: bolder;
+    margin: 10px auto;
+}
+.origin {
+	width: 315px;
+}
+.matherials {
+	width: 371px;
+}
+.price {
+	width: 230px;
+}
+.garanty {
+	width: 192px;
+}
+.about>.container>.row>div>span {
+	padding-top: 5px;
+}
+.portfolio>.container>.row>div {
+	padding-top: 15px;
+}
+.portfolio-head {
+	font-family: fantasy;
+	font-size: -webkit-xxx-large;
+}
+.rewiews-head {
+	font-family: fantasy;
+	font-size: -webkit-xxx-large;
+}
+.rewiews>.container>.row>.rewiews-people {
+	padding-top: 15px;
+}
+.map-head {
+	font-family: fantasy;
+	font-size: -webkit-xxx-large;
+}
+.contacts {
+	background-image: url(../img/contacts.jpg);
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-top: 15px;
+}
+.contacts-hat {
+	background-image: url(../img/hat-cont.jpg);
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 15px;
+}
+.contacts-back {
+	background-image: url(../img/sack-cont.jpg);
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 15px;
+}
+.contacts-head {
+	font-size: x-large;
+    color: #fff;
+    margin-top: 165px;
+    text-align: center;
+}
+.telephone-social {
+	font-size: large;
+    color: #fff;
+    position: relative;
+}
+.mail {
+	margin-top: -49px;
+}
+#mail:before {
+	content: '';
+    display: inline-block;
+    background-image: url(../img/spritesheet.png);
+    width: 56px;
+    height: 45px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: -156px;
+    bottom: -14px;
+    left: -8px;
+}
+.vk {
+    overflow: hidden;
+    width: 48px;
+    height: 38px;
+}
+.vk > a {
+	position: relative;
+    top: -73px;
+}
+.vk img {
+    position: relative;
+    left: -177px;
+    top: -55px;
+}
+.facebook {
+    overflow: hidden;
+    width: 47px;
+    height: 27px;
+    margin-top: 4px;
+    margin-left: -20px;
+}
+.facebook > a {
+	position: relative;
+    top: -54px;
+    left: -40px;
+}
+.facebook img {
+    position: relative;
+    top: -37px;
+    left: 22px;
+}
+.instagram {
+	overflow: hidden;
+    width: 45px;
+    height: 26px;
+    margin-top: 7px;
+    margin-left: -28px;
+}
+.instagram > a {
+    position: relative;
+    top: -1px;
+}
+.instagram img {
+	position: relative;
+    top: -93px;
+    right: 124px;
+}
+footer {
+    color: #fff;
+	margin: 0;
+	background-color: #111;
+	box-shadow: 1px -7px 20px 7px rgba(0,0,0,0.4);
+	border-color: transparent;
+}
+.copyright {
+	padding-top: 7px;
+}
+
+
+
+@media (max-width: 768px) {
+	.navbar-inverse .navbar-brand {
+    font-size: large;
+    width: 265px;
+	}
+	.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 18px 6px;
+	}
+	.about {
+	font-size: large;
+    font-family: fantasy;
+    font-weight: bolder;
+    margin: 10px auto;
+	}
+	.origin {
+		width: 247;
+	}
+	.matherials {
+	width: 320px;
+	}
+	.price {
+	width: 315px;
+	}
+	.portfolio-head {	
+	font-size: x-large;
+	}
+	.rewiews-head {
+	font-size: x-large;
+	}
+	.map-head {
+	font-size: large;
+	}
+	.contacts-head {
+		font-size: large;
+	}
+	.telephone-social {
+		font-size: medium;
+	}
+	footer {
+		font-size: medium;
+	}
+	.navbar-brand-footer {
+		font-size: x-large;
+		width: 271px;
+	}
+	.copyright {
+	padding-top: 45px;
+	}
+}
+@media (min-width: 568px) and (max-width: 1024) {
+	.about {
+		margin-left: 100px;
+	}
